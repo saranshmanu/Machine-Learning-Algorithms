@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0142983-b73f-493d-b7f0-2d6f7dbde1b3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Decision Trees.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Logistic Regression.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Voting Algorithm.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/XGBoost.py" />
       <change beforePath="$PROJECT_DIR$/.idea/Machine-Learning.iml" afterPath="$PROJECT_DIR$/.idea/Machine-Learning.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -37,12 +35,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Logistic Regression.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Logistic Regression.py">
+      <file leaf-file-name="XGBoost.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/XGBoost.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,18 +50,8 @@
       <file leaf-file-name="Decision Trees.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Decision Trees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Voting Algorithm.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Voting Algorithm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="52" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -93,6 +83,7 @@
         <option value="$PROJECT_DIR$/Logistic Regression.py" />
         <option value="$PROJECT_DIR$/Decision Trees.py" />
         <option value="$PROJECT_DIR$/Voting Algorithm.py" />
+        <option value="$PROJECT_DIR$/XGBoost.py" />
       </list>
     </option>
   </component>
@@ -155,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Voting Algorithm">
+  <component name="RunManager" selected="Python.XGBoost">
     <configuration name="Decision Trees" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -213,6 +204,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="XGBoost" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Machine-Learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/XGBoost.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,16 +242,18 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.Linear Regression" />
       <item index="1" class="java.lang.String" itemvalue="Python.Decision Trees" />
       <item index="2" class="java.lang.String" itemvalue="Python.Voting Algorithm" />
+      <item index="3" class="java.lang.String" itemvalue="Python.XGBoost" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.Voting Algorithm" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Decision Trees" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Linear Regression" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.XGBoost" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Voting Algorithm" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Decision Trees" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Linear Regression" />
       </list>
     </recent_temporary>
   </component>
@@ -309,6 +321,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Linear Regression.py" />
+    <entry file="file://$PROJECT_DIR$/Voting Algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" column="92" lean-forward="true" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Logistic Regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -319,18 +341,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Decision Trees.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Voting Algorithm.py">
+    <entry file="file://$PROJECT_DIR$/XGBoost.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        <state relative-caret-position="255">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
